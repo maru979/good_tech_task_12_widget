@@ -1,0 +1,53 @@
+{
+    "widget":{
+        "name": "widget.name",
+        "description": "widget.description",
+        "short_description": "widget.short_description",
+        "code": "ts12",
+        "secret_key": "02a9025cb39628d232ef42834ebea57b433c5ebf0b06509f8c73f5c212040d9b",
+        "version": "0.1.4",
+        "interface_version": 2,
+        "init_once": false,
+        "locale":[
+            "ru"
+        ],
+        "installation": true,
+        "support": {
+            "link": "https://www.amocrm.com",
+            "email": "support@amocrm.com"
+        }
+    },
+    "locations":[
+        "llist-0",
+        "settings",
+        "everywhere"
+    ],
+    "tour": {
+        "is_tour": true,
+        "tour_images": {
+            "ru": [
+                "/images/logo_main.png",
+                "/images/logo_main.png",
+                "/images/logo_main.png"
+            ]
+        },
+        "tour_description": "widget.tour_description"
+    },
+    "settings":{
+         "login":{
+             "name": "settings.login",
+             "type": "text",
+             "required": true
+         },
+         "api_key":{
+             "name": "settings.api_key",
+             "type": "text",
+             "required": true
+         },
+         "account":{
+             "name": "settings.account",
+             "type": "text",
+             "required": true
+         }
+    }
+}
